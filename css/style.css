@@ -1,0 +1,455 @@
+
+/* ===========================================
+/* common css
+================================================*/
+/* font awesome icon for root */
+:root{
+  font: var(--fa-font-solid);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-weight: 500;
+  color: #3d2514;
+  /* font-family: 'BebasNeueRegular'; */
+  font-family: 'Bebas Neue', cursive;
+  
+
+ 
+}
+.container-1{
+  width: 90%;
+  margin: 0 auto;
+}
+.container-2{
+  width: 85%;
+  margin: 0 auto;
+}
+.f-left{
+  float: left;
+}
+.f-right{
+  float: right;
+}
+.wrapper{
+  overflow: hidden;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+ 
+}
+h1{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 114px;
+  
+  
+}
+h2{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  font-weight: 400;
+  
+}
+span{
+  font-size: 29px;
+  color:  #573a1d;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #785F52;
+}
+.common-btn{
+  font-size: 17px;
+  padding: 10px 30px;
+  background: #bf2222;
+  color: #fff;
+  display: inline-block;
+  transition: .3s;
+  
+}
+.common-btn:hover{
+  background: #ffc045;
+  color: black;
+}
+img{
+  max-width: 100%;
+}
+/* ===========================================
+/* header css
+================================================*/
+header{
+  background: url(../images/banner.jpg);
+  padding: 30px 0px;
+}
+.logo{
+  width: 20%;
+}
+.logo img{}
+.menu{
+  width: 70%;
+  text-align: right;
+}
+.menu-p{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.menu-p img{
+  margin-right: 30px;
+}
+.menu-p p{
+  font-size: 14px;
+  color: #3d2514;
+  
+}
+.menu-p p a{
+  color: #3d2514;;
+}
+
+.menu ul{
+  margin-top: 15px;
+}
+.menu ul li{
+  display: inline-block;
+  margin-right: 25px;
+}
+.menu ul li:last-child{
+  margin-right: 0px;
+}
+.menu ul li a{
+  display: block;
+  color: #3d2514;
+  letter-spacing: 3px;
+  transition: .5s;
+  text-transform: uppercase;
+ 
+}
+.menu ul li a:hover{
+  color: #fff;
+}
+/* ===========================================
+/* header bottom css
+================================================*/
+.header-bottom{
+
+}
+.header-bottom-left{
+  width: 45%;
+  padding-top: 130px;
+}
+.header-bottom-left span{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  border: 2px dashed;
+  padding: 5px 10px;
+}
+.header-bottom-left h1{
+  font-size: 84px;
+  line-height: 115px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.header-bottom-left h2{
+ line-height: 40px;
+ text-transform: uppercase;
+}
+
+.header-bottom-right{
+  width: 50%;
+  position: relative;
+}
+.header-bottom-right img{}
+.price{
+  position: absolute;
+  bottom: 0px;
+  left: 35px;
+}
+/* ===========================================
+/* try-it css
+================================================*/
+.try-it{
+  padding: 70px 0px;
+}
+
+.try-it-left{
+  width: 50%;
+  background: url(../images/burger1.jpg);
+  background-repeat: no-repeat;
+  padding: 30px 20px 320px 20px;
+  margin-right: 2%;
+  border-radius: 10px;
+  background-position: center;
+}
+.try-it span{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: #fff;
+}
+.try-it  h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 41px;
+  color: #fff;
+  line-height: 35px;
+}
+.try-it-right{
+  width: 48%;
+ 
+}
+.try-it-right-img-1{
+  background: url(../images/burger2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 30px 0px 60px 20px;
+}
+.try-it-right-img-2{
+  background: url(../images/burger3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 35px;
+  padding: 30px 0px 100px 20px;
+  border-radius: 10px;
+}
+/* ===========================================
+/* choose us css
+================================================*/
+.choose-us{
+  padding: 0px 0px 100px 0px;
+}
+.choose-us-top{
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.choose-us-top span{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  background: #ffc045;
+  padding: 0px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+
+}
+.choose-us-top h2{
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+ 
+}
+.choose-us-top p{
+  line-height: 24px;
+}
+.single-box{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.single-box img{
+  width: 80%;
+  margin-bottom: 40px;
+  
+}
+.single-box h3{
+  font-size: 25px;
+}
+.cms{
+  margin-top: 5px;
+}
+.single-box p{
+  margin: 10px 0px;
+  line-height: 1.5rem;
+}
+.single-box .common-btn{
+  margin-top: 10px;
+}
+/* ===========================================
+/* Discover css
+================================================*/
+.discover{
+ 
+}
+.discover .container-2{
+  box-shadow: -5px 32px 34px -8px rgba(220,220,220,1);
+  -webkit-box-shadow: -5px 32px 34px -8px rgba(220,220,220,1);
+  -moz-box-shadow: -5px 32px 34px -8px rgba(220,220,220,1);
+  padding: 20px;
+}
+.discover-left{
+  width: 50%;
+}
+.discover-content{
+  padding: 35px 140px 50px 0px;
+}
+.discover-content span{}
+.discover-content  h2{
+  /* font-family: 'Bebas Neue', cursive; */
+  font-size: 31px;
+  text-transform: uppercase;
+}
+.discover-content p{
+  margin: 30px 0px;
+  line-height: 1.5rem;
+}
+.discover-radio span{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #ddd;
+  margin-right: 3px;
+  display: inline-block;
+}
+.discover-radio span:first-child{
+  background: #ffc045;
+}
+.discover-right{
+  width: 50%;
+}
+.discover-right img{}
+/* ===========================================
+/* reservation css
+================================================*/
+.reservation{
+  background: url(../images/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0px;
+}
+.reservation-content{
+  width: 790px;
+  margin: 0 auto;
+}
+.reservation-top{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.reservation-top span{
+  font-weight: 400;
+  font-size: 29px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.reservation-top h2{
+  text-transform: uppercase;
+}
+.reservation-content form{
+
+}
+.reservation-content form input,.reservation-content form button{
+  font-family: 'Bebas Neue', cursive;
+  min-height: 50px;
+  width: 45%;
+  margin: 10px 2%;
+  border: 1px solid #ddd;
+  padding: 0px 15px;
+  border-radius: 5px;
+  outline: none;
+
+}
+.reservation-content form button{
+  font-weight: 700;
+  font-size: 18px;
+  background: #bf2222;
+  color: #fff;
+  border: 1px solid #bf2222;
+  letter-spacing: 2px;
+  
+}
+/* ===========================================
+/* footer css
+================================================*/
+footer .container-2{
+  background: url(../images/fotter-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ft-left{
+  width: 70%;
+}
+.ft-content{
+  padding: 80px 20px;
+  width: 80%;
+}
+.ft-left h2{
+  text-transform: uppercase;
+  color: #fff;
+}
+.ft-left p{
+  color: #fff;
+  margin: 40px 0px;
+  line-height: 1.5rem;
+}
+
+.ft-right{
+  width: 30%;
+}
+.ft-right-content{
+ padding-top: 200px;
+}
+.ft-right-content p{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
+  color: #fff;
+  list-style: 24px;
+  margin-bottom: 10px;
+}
+.ft-right-content p i{
+  font-size: 20px;
+  width: 40px;
+  
+}
+
+.main-ft{}
+.main-ft-left{
+  width: 50%;
+}
+.main-ft-left span{
+  font-size: 16px;
+  color: #fff;
+  word-spacing: 3px;
+  padding: 15px 0px 15px 20px;
+  display: block;
+}
+
+.main-ft-right{
+  width: 50%;
+}
+.social{
+  text-align: right;
+  padding: 0px 20px 20px 0px;
+}
+.social li{
+  display: inline-block;
+  margin-left: 10px;
+  
+}
+.social li a{
+  display: block;
+  background: #fff;
+  color: #111;
+  line-height: 30px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  transition: .5s;
+}
+.social li a:hover{
+  background: #bf2222;
+  color: #fff;
+}
